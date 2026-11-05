@@ -1,17 +1,16 @@
 # SayurSegar — Pasar Sayur Online
 
-Website katalog sayur lokal Indonesia yang responsif, dibuat dengan HTML, CSS, dan JavaScript tanpa framework.
+Website multi-halaman untuk katalog sayur lokal Indonesia, inspirasi dapur, dan cerita tentang petani.
 
-## Fitur
+## Halaman
 
-- Katalog sayuran dengan harga Rupiah dan satuan produk.
-- Filter kategori dan pencarian produk.
-- Keranjang interaktif dengan pengaturan jumlah dan total belanja.
-- Tampilan responsif untuk ponsel dan desktop.
-- Seluruh teks antarmuka menggunakan bahasa Indonesia.
+- `index.html` — beranda dan pilihan produk.
+- `produk.html` — katalog dengan filter kategori, pencarian, dan keranjang belanja.
+- `resep.html` — inspirasi menu rumahan berbahan sayuran.
+- `tentang.html` — cerita dan prinsip SayurSegar.
 
 ## Menjalankan
 
-Buka `index.html` di browser. Tidak perlu proses build atau instalasi dependensi.
+Buka `index.html` di browser. Tidak membutuhkan framework, proses build, atau instalasi dependensi. Keranjang disimpan di browser menggunakan localStorage.
 
-> Tombol pemesanan saat ini hanya demonstrasi antarmuka; belum terhubung ke pembayaran atau layanan pengiriman.
+> Tombol pemesanan masih berupa demonstrasi antarmuka, belum terhubung ke pembayaran, stok, atau layanan pengiriman.
